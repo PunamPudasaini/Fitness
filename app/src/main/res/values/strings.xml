@@ -1,3 +1,31 @@
 <resources>
     <string name="app_name">Fitness</string>
+
+    <string name="jumping_benefit"> It balances out your heart rate, increases blood circulation all over the body, controls and maintains blood pressure, helps in doing away with bad cholesterol levels in the body, prevents the onset of stroke or heart attacks</string>
+    <string name="jumping">A jumping jack, also called side-straddle hop in the US military, is a physical jumping exercise performed by jumping to a position with the legs spread wide and the hands going overhead, sometimes in a clap, and then returning to a position with the feet together and the arms at the sides.</string>
+
+    <string name="mountainclimber">Performed from a plank position, you\'ll alternate bringing one knee to your chest, then back out again, speeding up each time until you\'re "running" against the floor. </string>
+    <string name="mountainclimber_benefit">Mountain climbers are great for building cardio endurance, core strength, and agility. You work several different muscle groups with mountain climbers—it\'s almost like getting a total-body workout with just one exercise</string>
+
+    <string name="legraises">Start by lying down on the floor or a mat. Unfortunately, it gets tougher from here. Lay flat with your arms at your sides and legs stretched out next to each other, then raise those legs. Even if you can’t hold them perfectly rigid, keep your legs as straight as possible, and lift them until they are pointing at the ceiling, or as near as you can get. Make sure your toes are pointed.</string>
+    <string name="legraises_benefit">Leg raises benefits include strengthening your core muscles, which can help prevent low back pain</string>
+
+    <string name="russiantwist">Sit with bent knees and your feet pressing firmly into the floor, holding a dumbbell in each hand next to your chest. Sit back slightly, keeping your spine straight. Exhale as you twist to the left, punching your right arm over to the left side. Inhale back to center, and then do the opposite side</string>
+    <string name="russiantwist_benefit">It’s ideal for anyone looking to tone their midsection, get rid of love handles, and develop that all-important core strength, which helps with balance, posture, and movement. it helps with twisting movements and allows you to quickly change direction.  </string>
+
+    <string name="abdominalcrunch">Lie down on your back. Plant your feet on the floor, hip-width apart. Bend your knees and place your arms across your chest. Contract your abs and inhale. Exhale and lift your upper body, keeping your head and neck relaxed. Inhale and return to the starting position.</string>
+    <string name="abdominalcrunch_benefit">The rectus abdominis muscle flexes to bring your shoulders towards your hips. As one of the major core muscles, it provides stability for the body.</string>
+
+    <string name="plank">Get into forearm plank position. Ensure your elbows on the ground directly underneath your shoulders with your feet hip-width apart. Make sure your back is flat and your head and neck are in a neutral position. Drive your elbows into the floor, and squeeze your quads, glutes, and core. Inhale through your nose and exhale through your mouth—don’t hold your breath.</string>
+    <string name="plank_benefit">Planks are a core-stabilizing exercise, McGill adds, which helps you become more efficient at running fast.</string>
+
+    <string name="heeltouch">Lie on the floor with knees bent at a 90 degree angle, move you shoulders off the floor into a crunch position, then with straight arms move side to side touching your ankles.</string>
+    <string name="heeltouch_benefit">Increases core strength in the obliques and the rectus abdominis, Engages upper-back muscles, Great beginner exercise for targeting obliques, Rectus abdominis contract isometrically while obliques contract dynamically. </string>
+
+    <string name="cobrastretch">Begin lying face down on your mat with head slightly lifted and hand sitting directly under shoulders.
+        ,Point your toes so the tops of you feet are on the mat. As you exhale, press arms straight and lift upper body and front of hips off the mat.Keep your legs and feet relaxed and on the ground.
+        Keep your abdominals contracted and breathe slowly.</string>
+    <string name="cobrastretch_benefit">Stretches muscles in the shoulders, chest and abdominals.Decreases stiffness of the lower back.Strengthens the arms and shoulders.Increases flexibility.Improves menstrual irregularities.Elevates mood.Firms and tones the buttocks.</string>
+
+
 </resources>

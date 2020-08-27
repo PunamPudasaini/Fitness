@@ -41,6 +41,7 @@
         android:layout_height="match_parent"
         android:orientation="vertical">
         <androidx.cardview.widget.CardView
+            android:id="@+id/card1"
             android:layout_width="match_parent"
             android:layout_margin="10dp"
             app:cardCornerRadius="20dp"
@@ -53,7 +54,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:text="Exercise"
+                    android:text="Daily Workout"
                     android:gravity="center_vertical"
                     android:textSize="20sp"
                     android:textStyle="bold"
