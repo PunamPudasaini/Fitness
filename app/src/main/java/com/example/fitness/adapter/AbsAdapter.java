@@ -1,16 +1,11 @@
 package com.example.fitness.adapter;
 
-import android.app.Dialog;
 import android.content.Context;
 import android.content.Intent;
-import android.graphics.Color;
-import android.graphics.drawable.ColorDrawable;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.view.Window;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.cardview.widget.CardView;
@@ -19,14 +14,14 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.bumptech.glide.Glide;
 import com.example.fitness.R;
 import com.example.fitness.dto.Abs;
-import com.example.fitness.exercise.beginner.Abdominal;
-import com.example.fitness.exercise.beginner.CobraStretch;
-import com.example.fitness.exercise.beginner.HeelTouch;
-import com.example.fitness.exercise.beginner.JumpingJack;
-import com.example.fitness.exercise.beginner.LegRaises;
-import com.example.fitness.exercise.beginner.MountainClimber;
-import com.example.fitness.exercise.beginner.Plank;
-import com.example.fitness.exercise.beginner.RussianTwist;
+import com.example.fitness.exercise.abs.Abdominal;
+import com.example.fitness.exercise.abs.CobraStretch;
+import com.example.fitness.exercise.abs.HeelTouch;
+import com.example.fitness.exercise.abs.JumpingJack;
+import com.example.fitness.exercise.abs.LegRaises;
+import com.example.fitness.exercise.abs.MountainClimber;
+import com.example.fitness.exercise.abs.Plank;
+import com.example.fitness.exercise.abs.RussianTwist;
 
 import java.util.ArrayList;
 

@@ -47,14 +47,14 @@ public class ArmInter extends AppCompatActivity {
 
     private ArrayList<com.example.fitness.dto.ArmInter> getlistabs() {
         ArrayList<com.example.fitness.dto.ArmInter> absArrayList = new ArrayList<>();
-        absArrayList.add(new com.example.fitness.dto.ArmInter(R.drawable.jumpingjack,"Jumping jacks"));
-        absArrayList.add(new com.example.fitness.dto.ArmInter(R.drawable.mountainclimber,"mountain climber"));
-        absArrayList.add(new com.example.fitness.dto.ArmInter(R.drawable.legraises,"leg raises"));
-        absArrayList.add(new com.example.fitness.dto.ArmInter(R.drawable.russiantwist,"russian twist"));
-        absArrayList.add(new com.example.fitness.dto.ArmInter(R.drawable.abdominal,"abdominal crunches"));
-        absArrayList.add(new com.example.fitness.dto.ArmInter(R.drawable.plank,"plank"));
-        absArrayList.add(new com.example.fitness.dto.ArmInter(R.drawable.heeltouch,"heel touch"));
-        absArrayList.add(new com.example.fitness.dto.ArmInter(R.drawable.cobra,"cobra stretch"));
+        absArrayList.add(new com.example.fitness.dto.ArmInter(R.drawable.armscisser,"arm scissors"));
+        absArrayList.add(new com.example.fitness.dto.ArmInter(R.drawable.burpess,"burpees"));
+        absArrayList.add(new com.example.fitness.dto.ArmInter(R.drawable.pushupandrotation,"push-up and rotation"));
+        absArrayList.add(new com.example.fitness.dto.ArmInter(R.drawable.floortricep,"floor tricep dips"));
+        absArrayList.add(new com.example.fitness.dto.ArmInter(R.drawable.militarypushup,"military pushup"));
+        absArrayList.add(new com.example.fitness.dto.ArmInter(R.drawable.tricepstretch,"tricep stretch"));
+        absArrayList.add(new com.example.fitness.dto.ArmInter(R.drawable.standingbicep,"standing bicep stretch"));
+        absArrayList.add(new com.example.fitness.dto.ArmInter(R.drawable.skippingwithoutrope,"skipping without rope"));
         return absArrayList;
     }
 }

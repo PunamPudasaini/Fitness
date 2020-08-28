@@ -47,14 +47,13 @@ public class AbsInter extends AppCompatActivity {
 
     private ArrayList<com.example.fitness.dto.AbsInter> getlistabs() {
         ArrayList<com.example.fitness.dto.AbsInter> absArrayList = new ArrayList<>();
-        absArrayList.add(new com.example.fitness.dto.AbsInter(R.drawable.jumpingjack,"Jumping jacks"));
-        absArrayList.add(new com.example.fitness.dto.AbsInter(R.drawable.mountainclimber,"mountain climber"));
         absArrayList.add(new com.example.fitness.dto.AbsInter(R.drawable.legraises,"leg raises"));
-        absArrayList.add(new com.example.fitness.dto.AbsInter(R.drawable.russiantwist,"russian twist"));
-        absArrayList.add(new com.example.fitness.dto.AbsInter(R.drawable.abdominal,"abdominal crunches"));
-        absArrayList.add(new com.example.fitness.dto.AbsInter(R.drawable.plank,"plank"));
-        absArrayList.add(new com.example.fitness.dto.AbsInter(R.drawable.heeltouch,"heel touch"));
-        absArrayList.add(new com.example.fitness.dto.AbsInter(R.drawable.cobra,"cobra stretch"));
+        absArrayList.add(new com.example.fitness.dto.AbsInter(R.drawable.barbellrollout,"abs roll-out"));
+        absArrayList.add(new com.example.fitness.dto.AbsInter(R.drawable.birddog,"Bird-dog"));
+        absArrayList.add(new com.example.fitness.dto.AbsInter(R.drawable.hangingkneeraise,"hanging knee raise"));
+        absArrayList.add(new com.example.fitness.dto.AbsInter(R.drawable.dumbel,"dumbbell woodchop"));
+        absArrayList.add(new com.example.fitness.dto.AbsInter(R.drawable.medicineballcrunch,"medicine ball crunch"));
+        absArrayList.add(new com.example.fitness.dto.AbsInter(R.drawable.plank,"walking plank"));
         return absArrayList;
     }
 

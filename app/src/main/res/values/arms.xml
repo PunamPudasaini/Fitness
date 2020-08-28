@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="armraise">Stand with feet shoulder length apart and keep your hands at your side with palms facing forward, raise your arms up and out to the sides so that your arms are at shoulder height. Then lower them to starting position, with a fluid and constant motion until you have completed the set. Keep your breathing fluid and constant. It is important to keep your spine straight and hips facing forward.</string>
+
+    <string name="tricepdip"> Find a stable chair, bench, or step.\nSit on the edge of the chair and grip the edge next to your hips. Your fingers should be pointed at your feet. Your legs are extended and your feet should be about hip-width apart with the heels touching the ground. Look straight ahead with your chin up. Press into your palms to lift your body and slide forward just far enough that your behind clears the edge of the chair. Lower yourself until your elbows are bent between 45 and 90 degrees.\n Slowly push yourself back up to the start position and repeat. Control the movement throughout the range of motion. Begin with 3 sets of 10 repetitions and increase your sets and reps over several weeks as you build muscle and strength in your triceps.</string>
+
+    <string name="armcircle"> Stand with your feet shoulder-width apart and extend your arms parallel to the floor.
+    Circle your arms forward using small controlled motions, gradually making the circles bigger until you feel a stretch in your triceps.
+    Reverse the direction of the circles after about 10 seconds.</string>
+
+    <string name="tricepstretch">Stand with your back straight and your feet shoulder-width apart. You can do this stretch sitting down if you are not steady on your feet.
+    Bring your left elbow straight up while bending your arm. \n Grab your left elbow with your right hand, and pull your left elbow toward your head with light pressure. If you are more flexible, you may pull your arm slightly behind your head. You will feel the stretch along the back of your arm.
+    Hold 15 to 30 seconds, then switch elbows.Repeat 2 to 4 times for each arm. </string>
+    
+    <string name="standingbicep">Interlace your hands at the base of your spine. Straighten your arms and turn your palms to face down. Raise your arms up as high as you can. Hold this position for up to 1 minute.</string>
+
+    <string name="pushup">Start in the standard pushup position. Turn your hands so your fingers are facing the wall behind you. Move your hands so they\'re aligned with your mid-back. Lower down, tucking your elbows in toward your body as much as possible. Once your chest reaches near the floor, push back up to start.</string>
+
+    <string name="barbellcurl">Stand tall with your chest up and core braced, holding the barbell with your hands just outside of your hips, using an underhand grip. Keeping your chest up and your elbows tight to your sides, initiate the move by raising your hands slightly so you feel your biceps become engaged. While maintaining tension on your biceps, curl the bar up to shoulder height, then give your biceps a one-second squeeze. Start to lower the bar slowly, keeping your biceps tensed and engaged to work as many muscle fibres as possible. \n Once the bar is back in the start position, straighten your arms fully to tense your triceps to ensure that your biceps are worked through the fullest possible range of motion.</string>
+
+    <string name="hammercurl">Stand with your feet shoulder-width apart and a slight bend in your knees. Hold a pair of dumbbells in your hands with your palms facing towards your body – this is the main difference from the standard curl, which you start with your palms facing forwards. Keeping your elbows close to your body, slowly curl the dumbbell up to your shoulders. Pause for a second at the top of the lift, squeeze your biceps, then lower the weights under control.</string>
+    
+    <string name="preachercurl">Sit on the preacher bench and adjust the height so your armpits are just touching the top of the sloped section. Hold the weight using an underhand grip (palms facing up) with your arms extended and your upper arms resting on the bench. Curl the weight up, keeping your upper arms on the bench, until your forearms are vertical. Pause for a second at the top of the curl, then slowly lower the weight until your arms are fully extended once again. Count for three beats as you lower. Make sure your feet are planted on the ground, and that your torso and shoulders stay still throughout the movement.</string>
+
+    <string name="concentrationcurl">Sit on a bench that’s set at a height so your knees are bent at 90° with your feet flat on the floor. Pick up a dumbbell in your right hand and place the back of your upper right arm on the inner part of your right thigh. Your arm should be extended holding the weight off the floor. \n Slowly curl the weight up, only moving your forearms – the position of your upper arm on your thigh will help you keep it still during the exercise. At the top of the move, pause for a beat and squeeze your biceps, then slowly lower the weight back to the start. Do all your reps on one arm, then switch to the other.</string>
+
+
+
+    <!--arm intermediate-->
+
+    <string name="doorwaycurl">Whilst maintaining the squat position and bend in the knee, pull your chest up towards the doorframe flexing at the bicep, once your chest comes in close contact with the doorframe - lower yourself back to the low position and repeat.</string>
+
+    <string name="floortricep">Sit on the floor with your knees bent, feet on the floor, hands on the floor behind you with fingers pointing toward body. To begin, lift hips off floor. Slowly and gently bend your elbows and lower your body close to the floor. Keep abdominal muscles tight. Extend arms through the elbows and repeat for 8 times. Progress to 3 sets of 8 times.</string>
+
+    <string name="militarypushup">    Start in a high plank position with your hands flat on the floor about shoulder-width apart, wrists under shoulders. Turn your elbows so that they are facing behind you. Keeping your body in one long line, bend your arms and lower yourself as close to the floor as you can. Keep your arms close to your torso as you perform the movement. Push back up to start.</string>
+    
+    <string name="pushupandrotation">Start at the top of the push up position with your hands on the floor, arms straight and underneath your shoulders. Step your feet back behind you and lift your knees. Engage your glutes, tense your legs and brace your core to keep your body rigid. \n Keeping your elbows in towards your ribs and your forearms vertical, bend at the elbows to lower your body towards the floor. Your head and shoulders should move forwards of your hands as you get closer to the floor. Use your full range of motion to lower your chest in between your hands, as close to the floor as you can, then push your hands into the floor, keeping you body tensed, to move it up away from the floor back towards the start position. As you get to the top of the push up, shift your weight onto your left hand and lift your right arm up, rotating through the spine and shoulders into a side plank position with your arms. \n Place your right hand back on the floor under your right shoulder, then lower into your next push-up. As you return to the top of this push-up, shift your weight on to your right hand and lift your left arm up into a side plank. Keep going with this push-up, side plank movement, alternating sides in between each push-up.</string>
+
+    <string name="armscissors">Begin by standing with good posture and raising your arms straight out in front of your body. \n Keeping your arms parallel to the ground, retract them until they are even with your torso. Return to the start position allowing your arms to cross over. Repeat the movement, alternating the top and bottom hand on each forward pass.</string>
+
+    <string name="skippingwithoutrope">place your arms at your side and pretend to hold a skipping rope handle in each hand. \n jump and alternatively land on the balls of your feet, rotating your wrists at the same time as if you were spinning a rope.</string>
+
+    <string name="chestpresspulse">Place your forearms together and then clasp your hands.Lift your arms up so that your elbows are at shoulder height. Press your forearms together and as you do raise you arms up 3-4 inches and then back down. Continue moving your arms up and down for the desired amount of reps. </string>
+
+    <string name="armcurl">Using your abs, lift your head, upper back, and shoulder blades off the floor. Exhale as you lift your shoulder blades off the floor, curling slightly through your upper back and looking just over your knees. Inhale as you lower your upper back to the ground, keeping the head lifted off the ground throughout the set.</string>
+
+
+
+
+</resources>

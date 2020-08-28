@@ -49,14 +49,12 @@ public class ArmAdvance extends AppCompatActivity {
 
     private ArrayList<com.example.fitness.dto.ArmAdvance> getlistabs() {
         ArrayList<com.example.fitness.dto.ArmAdvance> absArrayList = new ArrayList<>();
-        absArrayList.add(new com.example.fitness.dto.ArmAdvance(R.drawable.jumpingjack,"Jumping jacks"));
-        absArrayList.add(new com.example.fitness.dto.ArmAdvance(R.drawable.mountainclimber,"mountain climber"));
-        absArrayList.add(new com.example.fitness.dto.ArmAdvance(R.drawable.legraises,"leg raises"));
-        absArrayList.add(new com.example.fitness.dto.ArmAdvance(R.drawable.russiantwist,"russian twist"));
-        absArrayList.add(new com.example.fitness.dto.ArmAdvance(R.drawable.abdominal,"abdominal crunches"));
-        absArrayList.add(new com.example.fitness.dto.ArmAdvance(R.drawable.plank,"plank"));
-        absArrayList.add(new com.example.fitness.dto.ArmAdvance(R.drawable.heeltouch,"heel touch"));
-        absArrayList.add(new com.example.fitness.dto.ArmAdvance(R.drawable.cobra,"cobra stretch"));
+        absArrayList.add(new com.example.fitness.dto.ArmAdvance(R.drawable.armcurl,"arm curls crunch"));
+        absArrayList.add(new com.example.fitness.dto.ArmAdvance(R.drawable.militarypushup,"military pushup"));
+        absArrayList.add(new com.example.fitness.dto.ArmAdvance(R.drawable.chestpressgif,"chest press pulse"));
+        absArrayList.add(new com.example.fitness.dto.ArmAdvance(R.drawable.tricepstretch,"tricep stretch"));
+        absArrayList.add(new com.example.fitness.dto.ArmAdvance(R.drawable.skippingwithoutrope,"skipping without rope"));
+        absArrayList.add(new com.example.fitness.dto.ArmAdvance(R.drawable.standingbicep,"standing bicep stretch"));
         return absArrayList;
     }
 }

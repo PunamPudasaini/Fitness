@@ -47,14 +47,15 @@ public class ArmBeg extends AppCompatActivity {
 
     private ArrayList<Arm> getlistabs() {
         ArrayList<Arm> arms = new ArrayList<>();
-        arms.add(new Arm(R.drawable.jumpingjack,"Arm Raises"));
-        arms.add(new Arm(R.drawable.mountainclimber,"arm circle clockwise"));
-        arms.add(new Arm(R.drawable.legraises,"arm circle counter clockwise"));
-        arms.add(new Arm(R.drawable.russiantwist,"side arm raise"));
-        arms.add(new Arm(R.drawable.abdominal,"leg barbell curl left"));
-        arms.add(new Arm(R.drawable.plank,"leg barbell curl right"));
-        arms.add(new Arm(R.drawable.heeltouch,"wall push-ups"));
-        arms.add(new Arm(R.drawable.cobra,"punches"));
+        arms.add(new Arm(R.drawable.armraises,"Arm Raises"));
+        arms.add(new Arm(R.drawable.armcircle,"arm circle clockwise"));
+        arms.add(new Arm(R.drawable.barbellcurl,"barbell curl"));
+        arms.add(new Arm(R.drawable.pushup,"push-ups"));
+        arms.add(new Arm(R.drawable.tricepdip,"Triceps dips"));
+        arms.add(new Arm(R.drawable.tricepstretch,"Triceps stretch"));
+        arms.add(new Arm(R.drawable.standingbicep,"Standing biceps stretch"));
+
+
         return arms;
     }
 }
