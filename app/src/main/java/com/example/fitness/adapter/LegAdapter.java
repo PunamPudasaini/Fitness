@@ -1,6 +1,7 @@
 package com.example.fitness.adapter;
 
 import android.content.Context;
+import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -13,6 +14,21 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.bumptech.glide.Glide;
 import com.example.fitness.R;
 import com.example.fitness.dto.Leg;
+import com.example.fitness.exercise.leg.BottomLegLift;
+import com.example.fitness.exercise.leg.CalfStretch;
+import com.example.fitness.exercise.leg.DonkeyKick;
+import com.example.fitness.exercise.leg.DonkeyKick2;
+import com.example.fitness.exercise.leg.GluteKickBack;
+import com.example.fitness.exercise.leg.JumpingSquat;
+import com.example.fitness.exercise.leg.LungeJump;
+import com.example.fitness.exercise.leg.LyingButterflyStretch;
+import com.example.fitness.exercise.leg.QuadStretchWithWall;
+import com.example.fitness.exercise.leg.SideHop;
+import com.example.fitness.exercise.leg.SideLegCircle;
+import com.example.fitness.exercise.leg.Squats;
+import com.example.fitness.exercise.leg.SumoSquatCalfRaise;
+import com.example.fitness.exercise.leg.WallCalfRaises;
+import com.example.fitness.exercise.leg.WallSit;
 
 import java.util.ArrayList;
 
@@ -36,9 +52,35 @@ public class LegAdapter extends RecyclerView.Adapter<LegAdapter.LegViewHolder>{
     }
 
     @Override
-    public void onBindViewHolder(@NonNull LegViewHolder holder, int position) {
+    public void onBindViewHolder(@NonNull LegViewHolder holder, final int position) {
         holder.textView.setText(legs.get(position).getName());
         Glide.with(context).load(legs.get(position).getImage()).into(holder.imageView);
+        holder.cardView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                if (position == 0){
+                    context.startActivity(new Intent(context, SideHop.class));
+                }else if (position == 1) {
+                    context.startActivity(new Intent(context, Squats.class));
+                }
+                else if (position == 2) {
+                    context.startActivity(new Intent(context, DonkeyKick.class));
+                }
+                else if (position == 3) {
+                    context.startActivity(new Intent(context, QuadStretchWithWall.class));
+                }
+                else if (position == 4) {
+                    context.startActivity(new Intent(context, WallCalfRaises.class));
+                }
+                else if (position == 5) {
+                    context.startActivity(new Intent(context, CalfStretch.class));
+                }
+                else if (position == 6) {
+                    context.startActivity(new Intent(context, SumoSquatCalfRaise.class));
+                }
+            }
+        });
+
 
     }
 

@@ -48,14 +48,13 @@ public class LegAdvance extends AppCompatActivity {
 
     private ArrayList<com.example.fitness.dto.LegAdvance> getlistabs() {
         ArrayList<com.example.fitness.dto.LegAdvance> absArrayList = new ArrayList<>();
-        absArrayList.add(new com.example.fitness.dto.LegAdvance(R.drawable.jumpingjack,"Jumping jacks"));
-        absArrayList.add(new com.example.fitness.dto.LegAdvance(R.drawable.mountainclimber,"mountain climber"));
-        absArrayList.add(new com.example.fitness.dto.LegAdvance(R.drawable.legraises,"leg raises"));
-        absArrayList.add(new com.example.fitness.dto.LegAdvance(R.drawable.russiantwist,"russian twist"));
-        absArrayList.add(new com.example.fitness.dto.LegAdvance(R.drawable.abdominal,"abdominal crunches"));
-        absArrayList.add(new com.example.fitness.dto.LegAdvance(R.drawable.plank,"plank"));
-        absArrayList.add(new com.example.fitness.dto.LegAdvance(R.drawable.heeltouch,"heel touch"));
-        absArrayList.add(new com.example.fitness.dto.LegAdvance(R.drawable.cobra,"cobra stretch"));
+        absArrayList.add(new com.example.fitness.dto.LegAdvance(R.drawable.squat,"jumping squats"));
+        absArrayList.add(new com.example.fitness.dto.LegAdvance(R.drawable.sidelyningleglift,"bottom leg lift"));
+        absArrayList.add(new com.example.fitness.dto.LegAdvance(R.drawable.lungejump,"lunges jump"));
+        absArrayList.add(new com.example.fitness.dto.LegAdvance(R.drawable.sidelegcircle,"side leg circle"));
+        absArrayList.add(new com.example.fitness.dto.LegAdvance(R.drawable.glutekickback,"glute kick back"));
+        absArrayList.add(new com.example.fitness.dto.LegAdvance(R.drawable.wallsit,"wall sit"));
+        absArrayList.add(new com.example.fitness.dto.LegAdvance(R.drawable.lyingbutterfly,"lying butterfly stretch"));
         return absArrayList;
     }
 }

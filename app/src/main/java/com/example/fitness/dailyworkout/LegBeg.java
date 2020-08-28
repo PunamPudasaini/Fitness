@@ -48,14 +48,13 @@ public class LegBeg extends AppCompatActivity {
 
     private ArrayList<Leg> getlistabs() {
         ArrayList<Leg> butts = new ArrayList<>();
-        butts.add(new Leg(R.drawable.jumpingjack,"Arm Raises"));
-        butts.add(new Leg(R.drawable.mountainclimber,"arm circle clockwise"));
-        butts.add(new Leg(R.drawable.legraises,"arm circle counter clockwise"));
-        butts.add(new Leg(R.drawable.russiantwist,"side arm raise"));
-        butts.add(new Leg(R.drawable.abdominal,"leg barbell curl left"));
-        butts.add(new Leg(R.drawable.plank,"leg barbell curl right"));
-        butts.add(new Leg(R.drawable.heeltouch,"wall push-ups"));
-        butts.add(new Leg(R.drawable.cobra,"punches"));
+        butts.add(new Leg(R.drawable.sidehop,"Side hop"));
+        butts.add(new Leg(R.drawable.squat,"squats"));
+        butts.add(new Leg(R.drawable.donkeykick,"donkey kick"));
+        butts.add(new Leg(R.drawable.standingquadstretch,"Quad stretch with wall"));
+        butts.add(new Leg(R.drawable.calfraises,"wall calf raises"));
+        butts.add(new Leg(R.drawable.calfstretch,"calf stretch"));
+        butts.add(new Leg(R.drawable.sumosquatcalf,"sumo squat calf raise with wall"));
         return butts;
     }
 }

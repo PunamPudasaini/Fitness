@@ -48,14 +48,11 @@ public class LegInter extends AppCompatActivity {
 
     private ArrayList<com.example.fitness.dto.LegInter> getlistabs() {
         ArrayList<com.example.fitness.dto.LegInter> absArrayList = new ArrayList<>();
-        absArrayList.add(new com.example.fitness.dto.LegInter(R.drawable.jumpingjack,"Jumping jacks"));
-        absArrayList.add(new com.example.fitness.dto.LegInter(R.drawable.mountainclimber,"mountain climber"));
-        absArrayList.add(new com.example.fitness.dto.LegInter(R.drawable.legraises,"leg raises"));
-        absArrayList.add(new com.example.fitness.dto.LegInter(R.drawable.russiantwist,"russian twist"));
-        absArrayList.add(new com.example.fitness.dto.LegInter(R.drawable.abdominal,"abdominal crunches"));
-        absArrayList.add(new com.example.fitness.dto.LegInter(R.drawable.plank,"plank"));
-        absArrayList.add(new com.example.fitness.dto.LegInter(R.drawable.heeltouch,"heel touch"));
-        absArrayList.add(new com.example.fitness.dto.LegInter(R.drawable.cobra,"cobra stretch"));
+        absArrayList.add(new com.example.fitness.dto.LegInter(R.drawable.lungejumpp,"lunges"));
+        absArrayList.add(new com.example.fitness.dto.LegInter(R.drawable.sidelegcircle,"side leg circle"));
+        absArrayList.add(new com.example.fitness.dto.LegInter(R.drawable.flutterkick,"reverse flutter kick"));
+        absArrayList.add(new com.example.fitness.dto.LegInter(R.drawable.standingquadstretch,"quad stretch with wall"));
+        absArrayList.add(new com.example.fitness.dto.LegInter(R.drawable.calfraises,"calf raisesd with splayed foot"));
         return absArrayList;
     }
 }

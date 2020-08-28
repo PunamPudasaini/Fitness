@@ -1,6 +1,7 @@
 package com.example.fitness.adapter;
 
 import android.content.Context;
+import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -13,6 +14,17 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.bumptech.glide.Glide;
 import com.example.fitness.R;
 import com.example.fitness.dto.LegAdvance;
+import com.example.fitness.exercise.cardio.BoxJump;
+import com.example.fitness.exercise.cardio.PlankJack;
+import com.example.fitness.exercise.cardio.SquatJump;
+import com.example.fitness.exercise.cardio.StandingAlter;
+import com.example.fitness.exercise.leg.BottomLegLift;
+import com.example.fitness.exercise.leg.GluteKickBack;
+import com.example.fitness.exercise.leg.JumpingSquat;
+import com.example.fitness.exercise.leg.LungeJump;
+import com.example.fitness.exercise.leg.LyingButterflyStretch;
+import com.example.fitness.exercise.leg.SideLegCircle;
+import com.example.fitness.exercise.leg.WallSit;
 
 import java.util.ArrayList;
 
@@ -35,9 +47,35 @@ public class LegAdvanceAdapter extends RecyclerView.Adapter<LegAdvanceAdapter.Le
     }
 
     @Override
-    public void onBindViewHolder(@NonNull LegAdvanceViewHolder holder, int position) {
+    public void onBindViewHolder(@NonNull LegAdvanceViewHolder holder, final int position) {
         holder.textView.setText(legAdvances.get(position).getName());
         Glide.with(context).load(legAdvances.get(position).getImage()).into(holder.imageView);
+
+        holder.cardView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                if (position == 0){
+                    context.startActivity(new Intent(context, JumpingSquat.class));
+                }else if (position == 1) {
+                    context.startActivity(new Intent(context, BottomLegLift.class));
+                }
+                else if (position == 2) {
+                    context.startActivity(new Intent(context, LungeJump.class));
+                }
+                else if (position == 3) {
+                    context.startActivity(new Intent(context, SideLegCircle.class));
+                }
+                else if (position == 4) {
+                    context.startActivity(new Intent(context, GluteKickBack.class));
+                }
+                else if (position == 5) {
+                    context.startActivity(new Intent(context, WallSit.class));
+                }
+                else if (position == 6) {
+                    context.startActivity(new Intent(context, LyingButterflyStretch.class));
+                }
+            }
+        });
 
     }
 
