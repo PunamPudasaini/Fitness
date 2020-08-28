@@ -48,14 +48,14 @@ public class ButtInter extends AppCompatActivity {
 
     private ArrayList<com.example.fitness.dto.ButtInter> getlistabs() {
         ArrayList<com.example.fitness.dto.ButtInter> absArrayList = new ArrayList<>();
-        absArrayList.add(new com.example.fitness.dto.ButtInter(R.drawable.jumpingjack,"diagnonal sqaut"));
-        absArrayList.add(new com.example.fitness.dto.ButtInter(R.drawable.mountainclimber,"hip thrust single-arm reach"));
-        absArrayList.add(new com.example.fitness.dto.ButtInter(R.drawable.legraises,"step-up"));
-        absArrayList.add(new com.example.fitness.dto.ButtInter(R.drawable.russiantwist,"side lunge shift"));
-        absArrayList.add(new com.example.fitness.dto.ButtInter(R.drawable.abdominal,"walking lunge"));
-        absArrayList.add(new com.example.fitness.dto.ButtInter(R.drawable.plank,"single leg hip lift"));
-        absArrayList.add(new com.example.fitness.dto.ButtInter(R.drawable.heeltouch,"hip drive step-up"));
-        absArrayList.add(new com.example.fitness.dto.ButtInter(R.drawable.cobra,"side step-up"));
+        absArrayList.add(new com.example.fitness.dto.ButtInter(R.drawable.diagonalsquat,"diagnonal sqaut"));
+        absArrayList.add(new com.example.fitness.dto.ButtInter(R.drawable.hipthrustsinglearm,"hip thrust single-arm reach"));
+        absArrayList.add(new com.example.fitness.dto.ButtInter(R.drawable.stepup,"step-up"));
+        absArrayList.add(new com.example.fitness.dto.ButtInter(R.drawable.sidelungshift,"side lunge shift"));
+        absArrayList.add(new com.example.fitness.dto.ButtInter(R.drawable.walkinglunge,"walking lunge"));
+        absArrayList.add(new com.example.fitness.dto.ButtInter(R.drawable.singleleghiplift,"single leg hip lift"));
+        absArrayList.add(new com.example.fitness.dto.ButtInter(R.drawable.hipdrivestepup,"hip drive step-up"));
+        absArrayList.add(new com.example.fitness.dto.ButtInter(R.drawable.sidestepup,"side step-up"));
         return absArrayList;
     }
 }

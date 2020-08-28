@@ -1,6 +1,7 @@
 package com.example.fitness.adapter;
 
 import android.content.Context;
+import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -14,6 +15,21 @@ import com.bumptech.glide.Glide;
 import com.example.fitness.R;
 import com.example.fitness.dto.Arm;
 import com.example.fitness.dto.Butt;
+import com.example.fitness.exercise.arms.ArmScissor;
+import com.example.fitness.exercise.arms.Burpeees;
+import com.example.fitness.exercise.arms.FloorTricep;
+import com.example.fitness.exercise.arms.MilitaryPushup;
+import com.example.fitness.exercise.arms.PushUpRot;
+import com.example.fitness.exercise.arms.SkippingWithoutrope;
+import com.example.fitness.exercise.arms.StandingBicep2;
+import com.example.fitness.exercise.arms.TricepStretch2;
+import com.example.fitness.exercise.butt.BottomupLunge;
+import com.example.fitness.exercise.butt.ChairSquatJump;
+import com.example.fitness.exercise.butt.GluteBridge;
+import com.example.fitness.exercise.butt.HipDrive;
+import com.example.fitness.exercise.butt.HipThrust;
+import com.example.fitness.exercise.butt.MarchingHipLifts;
+import com.example.fitness.exercise.butt.SideSkater;
 
 import java.util.ArrayList;
 
@@ -36,9 +52,34 @@ public class ButtAdapter extends RecyclerView.Adapter<ButtAdapter.ButtViewHolder
     }
 
     @Override
-    public void onBindViewHolder(@NonNull ButtViewHolder holder, int position) {
+    public void onBindViewHolder(@NonNull ButtViewHolder holder, final int position) {
         holder.textView.setText(butts.get(position).getName());
         Glide.with(context).load(butts.get(position).getImage()).into(holder.imageView);
+        holder.cardView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                if (position == 0){
+                    context.startActivity(new Intent(context, HipDrive.class));
+                } else if (position ==1) {
+                    context.startActivity(new Intent(context, BottomupLunge.class));
+                }
+                else if (position ==2){
+                    context.startActivity(new Intent(context, HipThrust.class));
+                }
+                else if (position ==3){
+                    context.startActivity(new Intent(context, GluteBridge.class));
+                }
+                else if (position ==4){
+                    context.startActivity(new Intent(context, SideSkater.class));
+                }
+                else if (position ==5){
+                    context.startActivity(new Intent(context, MarchingHipLifts.class));
+                }
+                else if (position ==6){
+                    context.startActivity(new Intent(context, ChairSquatJump.class));
+                }
+            }
+        });
 
     }
 

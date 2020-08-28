@@ -47,13 +47,13 @@ public class ButtAdvance extends AppCompatActivity {
 
     private ArrayList<com.example.fitness.dto.ButtAdvance> getlistabs() {
         ArrayList<com.example.fitness.dto.ButtAdvance> absArrayList = new ArrayList<>();
-        absArrayList.add(new com.example.fitness.dto.ButtAdvance(R.drawable.jumpingjack,"bottoms-up lunge to crossover lunge"));
-        absArrayList.add(new com.example.fitness.dto.ButtAdvance(R.drawable.mountainclimber,"supported single-leg squat"));
-        absArrayList.add(new com.example.fitness.dto.ButtAdvance(R.drawable.legraises,"single-leg deadlift"));
-        absArrayList.add(new com.example.fitness.dto.ButtAdvance(R.drawable.russiantwist,"powerskip"));
-        absArrayList.add(new com.example.fitness.dto.ButtAdvance(R.drawable.abdominal,"Rear-foot-elevated split squat"));
-        absArrayList.add(new com.example.fitness.dto.ButtAdvance(R.drawable.plank,"Rear-foot elevated deadlift"));
-        absArrayList.add(new com.example.fitness.dto.ButtAdvance(R.drawable.heeltouch,"single-leg squat reach across"));
+        absArrayList.add(new com.example.fitness.dto.ButtAdvance(R.drawable.bottomuplungtocrossover,"bottoms-up lunge to crossover lunge"));
+        absArrayList.add(new com.example.fitness.dto.ButtAdvance(R.drawable.supportedsinglelegsquat,"supported single-leg squat"));
+        absArrayList.add(new com.example.fitness.dto.ButtAdvance(R.drawable.singleleghiplift,"single-leg deadlift"));
+        absArrayList.add(new com.example.fitness.dto.ButtAdvance(R.drawable.powerskip,"powerskip"));
+        absArrayList.add(new com.example.fitness.dto.ButtAdvance(R.drawable.rearfootelevatedsplitsquat,"Rear-foot-elevated split squat"));
+        absArrayList.add(new com.example.fitness.dto.ButtAdvance(R.drawable.rearfootelevateddeadlift,"Rear-foot elevated deadlift"));
+        absArrayList.add(new com.example.fitness.dto.ButtAdvance(R.drawable.singlelegsquatreachacross,"single-leg squat reach across"));
         return absArrayList;
     }
 }

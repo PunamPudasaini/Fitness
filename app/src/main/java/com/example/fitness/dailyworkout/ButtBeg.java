@@ -47,13 +47,13 @@ public class ButtBeg extends AppCompatActivity {
 
     private ArrayList<Butt> getlistabs() {
         ArrayList<Butt> butts = new ArrayList<>();
-        butts.add(new Butt(R.drawable.jumpingjack,"Hip Drive"));
-        butts.add(new Butt(R.drawable.mountainclimber,"Bottoms-up lunge"));
-        butts.add(new Butt(R.drawable.legraises,"hip thrust"));
-        butts.add(new Butt(R.drawable.russiantwist,"glute bridge"));
-        butts.add(new Butt(R.drawable.abdominal,"side Skaters"));
-        butts.add(new Butt(R.drawable.plank,"Marching Hip Lifts"));
-        butts.add(new Butt(R.drawable.heeltouch,"chair squat jump"));
+        butts.add(new Butt(R.drawable.hipdrive,"Hip Drive"));
+        butts.add(new Butt(R.drawable.buttomuplunge,"Bottoms-up lunge"));
+        butts.add(new Butt(R.drawable.hipthrust,"hip thrust"));
+        butts.add(new Butt(R.drawable.glutebridge,"glute bridge"));
+        butts.add(new Butt(R.drawable.sideskater,"side Skaters"));
+        butts.add(new Butt(R.drawable.marchinghiplift,"Marching Hip Lifts"));
+        butts.add(new Butt(R.drawable.chairsquatjump,"chair squat jump"));
         return butts;
     }
 }
