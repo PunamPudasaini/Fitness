@@ -9,22 +9,21 @@ import android.os.Bundle;
 import android.view.View;
 
 import com.example.fitness.R;
-import com.example.fitness.adapter.ArmAdapter;
-import com.example.fitness.adapter.ButtAdapter;
-import com.example.fitness.dto.Arm;
-import com.example.fitness.dto.Butt;
+import com.example.fitness.adapter.AbsAdapter;
+import com.example.fitness.adapter.CardioAdvanceAdapter;
+import com.example.fitness.dto.Abs;
 
 import java.util.ArrayList;
 
-public class ButtBeg extends AppCompatActivity {
+public class CardioAdvance extends AppCompatActivity {
     private RecyclerView recyclerView;
-    private ButtAdapter adapter;
+    private CardioAdvanceAdapter adapter;
     private RecyclerView.LayoutManager layoutManager;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_butt_beg);
+        setContentView(R.layout.activity_cardio_advance);
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
@@ -39,21 +38,21 @@ public class ButtBeg extends AppCompatActivity {
         recyclerView.setAdapter(adapter);
         recyclerView.setLayoutManager(layoutManager);
     }
+
     private void init() {
         this.recyclerView = findViewById(R.id.recycleview);
         this.layoutManager = new LinearLayoutManager(getBaseContext());
-        this.adapter = new ButtAdapter(getBaseContext(),getlistabs());
+        this.adapter = new CardioAdvanceAdapter(getBaseContext(),getlistabs());
     }
 
-    private ArrayList<Butt> getlistabs() {
-        ArrayList<Butt> butts = new ArrayList<>();
-        butts.add(new Butt(R.drawable.jumpingjack,"Hip Drive"));
-        butts.add(new Butt(R.drawable.mountainclimber,"Bottoms-up lunge"));
-        butts.add(new Butt(R.drawable.legraises,"hip thrust"));
-        butts.add(new Butt(R.drawable.russiantwist,"glute bridge"));
-        butts.add(new Butt(R.drawable.abdominal,"side Skaters"));
-        butts.add(new Butt(R.drawable.plank,"Marching Hip Lifts"));
-        butts.add(new Butt(R.drawable.heeltouch,"chair squat jump"));
-        return butts;
+    private ArrayList<com.example.fitness.dto.CardioAdvance> getlistabs() {
+        ArrayList<com.example.fitness.dto.CardioAdvance> absArrayList = new ArrayList<>();
+        absArrayList.add(new com.example.fitness.dto.CardioAdvance(R.drawable.mountainclimber,"mountain climber"));
+        absArrayList.add(new com.example.fitness.dto.CardioAdvance(R.drawable.planksk,"plank ski hops"));
+        absArrayList.add(new com.example.fitness.dto.CardioAdvance(R.drawable.diagonal,"diagonal jumps"));
+        absArrayList.add(new com.example.fitness.dto.CardioAdvance(R.drawable.rotational,"rotational jacks"));
+        absArrayList.add(new com.example.fitness.dto.CardioAdvance(R.drawable.burpess,"burpees"));
+        absArrayList.add(new com.example.fitness.dto.CardioAdvance(R.drawable.inchworm,"inchworm crawl"));
+        return absArrayList;
     }
 }

@@ -47,14 +47,14 @@ public class CardioBeg extends AppCompatActivity {
 
     private ArrayList<Cardio> getlistabs() {
         ArrayList<Cardio> butts = new ArrayList<>();
-        butts.add(new Cardio(R.drawable.jumpingjack,"Arm Raises"));
-        butts.add(new Cardio(R.drawable.mountainclimber,"arm circle clockwise"));
-        butts.add(new Cardio(R.drawable.legraises,"arm circle counter clockwise"));
-        butts.add(new Cardio(R.drawable.russiantwist,"side arm raise"));
-        butts.add(new Cardio(R.drawable.abdominal,"leg barbell curl left"));
-        butts.add(new Cardio(R.drawable.plank,"leg barbell curl right"));
-        butts.add(new Cardio(R.drawable.heeltouch,"wall push-ups"));
-        butts.add(new Cardio(R.drawable.cobra,"punches"));
+        butts.add(new Cardio(R.drawable.highknees,"high kness"));
+        butts.add(new Cardio(R.drawable.buttkick,"butt kick"));
+        butts.add(new Cardio(R.drawable.lateral,"lateral shuffles"));
+        butts.add(new Cardio(R.drawable.crab,"crab walk"));
+        butts.add(new Cardio(R.drawable.stand,"standing oblique crunch"));
+        butts.add(new Cardio(R.drawable.speed,"speed skater"));
+        butts.add(new Cardio(R.drawable.jumpj,"jumping jacks"));
+        butts.add(new Cardio(R.drawable.toe,"toe taps"));
         return butts;
     }
 }

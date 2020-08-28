@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--cardiobeg-->
+    <string name="highknees"> Stand with your legs together and arms at your sides. Lift one knee toward your chest. Lower your leg and repeat with the other knee. Continue alternating knees, pumping your arms up and down.</string>
+
+    <string name="buttkick">Stand with your legs together and arms at your sides. Bring one heel toward your butt. Lower your foot and repeat with the other heel. Continue alternating your heels and pumping your arms. </string>
+
+    <string name="lateralshuffle">Stand with your feet hip-width apart, knees and hips bent. Lean forward slightly and brace your core. Lift your right foot, push off your left foot, and move right while keeping your form. Place your feet together. Continue shuffling to the right. Repeat the same steps to the left side.</string>
+
+    <string name="crabwalk">Sit on the floor, knees bent and feet flat. Place your hands on the floor under your shoulders, fingers pointing forward. Lift your hips off the floor. “Walk” backward using your arms and legs, keeping your weight evenly distributed between your arms and legs. Continue walking backward for the desired distance.</string>
+
+    <string name="standingoblique">Stand with your feet shoulder-width apart. Place your hands on the back of your head, elbows pointing outward. Bend to the right, moving your right elbow down and right knee up. Return to starting position. Repeat on the left side. </string>
+
+    <string name="speedskater">Start in a curtsy lunge, both knees bent and your right leg diagonally behind you. Bend your right arm and straighten your left arm. Push off your left leg, moving your right leg forward. Bring your left leg diagonally behind you and switch arms. Continue “skating” left and right.</string>
+
+    <string name="jumpingjack">Stand with your legs together and arms at your sides. Bend your knees slightly. Jump and spread your legs wider than shoulder-width, lifting your arms overhead. Jump to center. Repeat.</string>
+
+    <string name="toetap">Stand in front of the curb or step. Rest one foot on top, toes facing down. Quickly switch legs to bring the other foot on top. Continue alternating feet. As you get used to the movement, move left or right while doing toe taps.</string>
+
+
+    <!--cardio intermediate-->
+
+    <string name="squatjump">Start with your feet shoulder-width apart. Bend your knees and lower into a squat. Swing your arms back. Quickly swing your arms upward and jump. Land gently back in a squat. Repeat</string>
+    
+    <string name="standingalternate">Stand with your feet shoulder-width apart and arms at your sides. Brace your core. Lift your right leg straight up. Simultaneously raise your left hand up and over, reaching toward your right toes. Repeat with your left leg and right hand.</string>
+    
+    <string name="lungejump">Start in a lunge, both knees bent at 90-degree angles. Point your feet forward. Brace your core, pull your shoulders down, and swing your arms back. Quickly swing your arms upward and jump. Simultaneously switch legs. Land in a lunge. Repeat.</string>
+    
+    <string name="boxjump">Stand in front of a knee-high box or platform. Place your feet hip-width apart and arms at your sides. Engage your core. Bend your knees and hinge forward at your hips, keeping your back flat. Swing your arms up and jump explosively onto the box. Land gently, leaning forward slightly. Jump back off the box. Repeat.</string>
+    
+    <string name="plankjack">Start in a plank with your hands under shoulders and your body straight. Bring your feet together. Jump and spread your legs wider than shoulder width. Jump back to a plank and repeat.</string>
+
+    <!--cardio advance-->
+    
+    <string name="mountain">Start in a plank with your hands under your shoulders and your body straight. Flatten your back and brace your core. Lift your right knee toward your chest. Quickly switch, moving your right knee out and lifting your left knee in. Continue alternating legs.</string>
+    
+    <string name="plankski">Start in a plank with your hands under your shoulders and your body straight. Bring your legs together. Jump your feet to the right, rotating to bring your knees outside your right elbow. Keep your legs together. Jump back into a plank. Repeat on the left side. </string>
+    
+    <string name="diagnonal">Start in lunge position, both knees bent at 90 degrees. Turn your body toward the right corner of the room. Brace your core, pull your shoulders down, and swing your arms back. Quickly swing your arms up, jump, and switch legs. Land in a lunge, facing the left corner. Continue jumping and switching legs. </string>
+    
+    <string name="Rotationaljack">Start with your feet and hands together. Jump into a squat, landing with your knees bent, feet wider than shoulder-width apart, and toes pointed slightly out. Simultaneously rotate your waist, reaching your right hand up and left hand to the floor. Jump into starting position before jumping back into a squat, reaching your left hand up and right hand down. Continue jumping and switching arms.</string>
+
+    <string name="burpees">Stand with your feet shoulder-width apart. Squat and place your hands on the floor. Jump your feet back into a plank. Do one pushup. Jump your feet back into a squat. Jump up, reaching your arms upward. Repeat.</string>
+
+    <string name="inchworm">Stand with your feet together. Brace your core, bend forward at your hips, and reach your arms toward the floor. Keep your knees straight but relaxed. Set your fingers on the floor, softly bending your knees. Plant your feet and slowly walk your hands forward into a plank with your hands under your shoulders. Stiffen your core and do one pushup. Slowly walk your feet toward your hands. Reach your arms forward and repeat.</string>
+</resources>

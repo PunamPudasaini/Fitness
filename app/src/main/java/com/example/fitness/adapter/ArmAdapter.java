@@ -13,6 +13,7 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.bumptech.glide.Glide;
 import com.example.fitness.R;
 import com.example.fitness.dto.Arm;
+import com.example.fitness.dto.ArmAdvance;
 
 import java.util.ArrayList;
 

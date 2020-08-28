@@ -7,18 +7,26 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.fitness.R;
-import com.example.fitness.activity.DailyWorkout;
+import com.example.fitness.dailyworkout.AbsAdvance;
 import com.example.fitness.dailyworkout.AbsBeg;
+import com.example.fitness.dailyworkout.AbsInter;
+import com.example.fitness.dailyworkout.ArmAdvance;
 import com.example.fitness.dailyworkout.ArmBeg;
+import com.example.fitness.dailyworkout.ArmInter;
+import com.example.fitness.dailyworkout.ButtAdvance;
 import com.example.fitness.dailyworkout.ButtBeg;
+import com.example.fitness.dailyworkout.ButtInter;
+import com.example.fitness.dailyworkout.CardioAdvance;
 import com.example.fitness.dailyworkout.CardioBeg;
+import com.example.fitness.dailyworkout.CardioInter;
+import com.example.fitness.dailyworkout.LegAdvance;
 import com.example.fitness.dailyworkout.LegBeg;
+import com.example.fitness.dailyworkout.LegInter;
 import com.example.fitness.dto.Workout;
 
 import java.util.ArrayList;
@@ -60,6 +68,36 @@ public class DailyWorkoutAdapter extends RecyclerView.Adapter<DailyWorkoutAdapte
                 }
                 else if (position == 4){
                     context.startActivity(new Intent(context, LegBeg.class));
+                }
+                else if (position == 5){
+                    context.startActivity(new Intent(context, AbsInter.class));
+                }
+                else if (position == 6){
+                    context.startActivity(new Intent(context, ArmInter.class));
+                }
+                else if (position == 7){
+                    context.startActivity(new Intent(context, ButtInter.class));
+                }
+                else if (position == 8){
+                    context.startActivity(new Intent(context, CardioInter.class));
+                }
+                else if (position == 9){
+                    context.startActivity(new Intent(context, LegInter.class));
+                }
+                else if (position == 10){
+                    context.startActivity(new Intent(context, AbsAdvance.class));
+                }
+                else if (position == 11){
+                    context.startActivity(new Intent(context, ArmAdvance.class));
+                }
+                else if (position == 12){
+                    context.startActivity(new Intent(context, ButtAdvance.class));
+                }
+                else if (position == 13){
+                    context.startActivity(new Intent(context, CardioAdvance.class));
+                }
+                else if (position == 14){
+                    context.startActivity(new Intent(context, LegAdvance.class));
                 }
             }
         });
