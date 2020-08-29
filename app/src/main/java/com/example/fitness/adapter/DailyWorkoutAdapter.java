@@ -9,6 +9,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
+import androidx.cardview.widget.CardView;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.fitness.R;
@@ -51,7 +52,7 @@ public class DailyWorkoutAdapter extends RecyclerView.Adapter<DailyWorkoutAdapte
     public void onBindViewHolder(@NonNull final DailyWorkoutViewHolder holder, final int position) {
         holder.textView.setText(workouts.get(position).getName());
         holder.imageView.setImageDrawable(context.getResources().getDrawable(workouts.get(position).getImage()));
-        holder.imageView.setOnClickListener(new View.OnClickListener() {
+        holder.cardView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 //Toast.makeText(v.getContext(), "position" + holder.getAdapterPosition(), Toast.LENGTH_SHORT).show();
@@ -110,6 +111,7 @@ public class DailyWorkoutAdapter extends RecyclerView.Adapter<DailyWorkoutAdapte
     }
 
     class DailyWorkoutViewHolder extends RecyclerView.ViewHolder{
+        CardView cardView;
         ImageView imageView;
         TextView textView;
 
@@ -117,6 +119,7 @@ public class DailyWorkoutAdapter extends RecyclerView.Adapter<DailyWorkoutAdapte
             super(itemView);
             imageView = itemView.findViewById(R.id.img);
             textView = itemView.findViewById(R.id.text);
+            cardView = itemView.findViewById(R.id.card3);
         }
     }
 }
